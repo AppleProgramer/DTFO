@@ -35,8 +35,38 @@ body{
   height: 60px;
   width: 60px;
   background-color:red;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: slide;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.triangle {
+  margin-bottom: 50px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 70px solid green;
+  animation-duration: 4s;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 261px;
+}
+
+.right  {
+  display: flex;
+  flex-direction: column;
+  width: 261px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
 }
