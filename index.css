@@ -1,6 +1,6 @@
 .square {
-  height: 50px;
-  width: 60px;
+  height: 60px;
+  width: 70px;
   background-color: blue;
   animation-duration: 5s;
   animation-name: slide;
