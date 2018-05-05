@@ -70,3 +70,16 @@ body{
   display: flex;
   flex-direction: row;
 }
+
+
+.Play {
+  width: 100px;
+  height: 45px;
+  color: black;
+  background-color:blue;
+}
+
+.Cash{
+  color: blue;
+  font-size:25px;
+}
